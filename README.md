@@ -19,6 +19,13 @@ A browser-based, first-person interactive narrative demo for researching **multi
 | --- | --- | --- | --- | --- | --- |
 | Interaction data required; camera/microphone proxies optional.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">交互数据为必需；摄像头/麦克风代理可选。</span> | Cultural & linguistic background, personality dimensions, cultural orientations, expression and regulation habits.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">文化与语言背景、人格维度、文化取向、表达与情绪调节习惯。</span> | 10-second resting demo baseline; press-and-hold natural voice sample.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">10 秒静息演示基线；按住录制自然语音样本。</span> | Home & time pressure; work & public evaluation; close relationship & ambiguous intention; outdoor mobility & noise.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">家庭与时间压力；工作与公开评价；亲密关系与模糊意图；户外出行与噪音。</span> | Dimensional affect, discrete emotion & intensity, concealment, expressivity match, causal explanation, preferred AI behaviour.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">维度情绪、离散情绪与强度、掩饰、表达匹配度、原因解释、期望的 AI 行为。</span> | Nested JSON for reproducible processing; long-form CSV for rapid inspection.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">嵌套 JSON 便于可复现处理；长表 CSV 便于快速检视。</span> |
 
+<div align="center">
+
+### [🎮 Have a try?](https://wxyhuigenghao-glitch.github.io/EmotionTrack/)
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">在线体验游戏演示 →</div>
+
+</div>
+
 ## Why this prototype exists
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">为什么存在这个原型</div>
 
