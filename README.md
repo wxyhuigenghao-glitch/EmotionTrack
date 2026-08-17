@@ -8,6 +8,16 @@
 A browser-based, first-person interactive narrative demo for researching **multimodal perception and context-aware emotion understanding**. The prototype places one participant in four everyday contexts—home, work, close relationships, and outdoor mobility—while preserving a common interaction structure: inspect context, make a decision, respond to an AI intervention, answer in one’s own words, and self-report the affective experience.
 
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">一个基于浏览器、第一人称的交互式叙事演示，用于研究多模态感知与情境感知的情绪理解。原型将一名参与者置于四种日常情境——家庭、工作、亲密关系与户外出行——同时保持一致的交互结构：查看情境、做出决定、回应 AI 干预、用自己的话作答，并自我报告情绪体验。</div>
+<br>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px"></div>
+
+![EmotionTrack architecture](asset/emotiontrack-architecture.png)
+
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px"></div>
+
+| 1. Consent & sensing preferences<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">同意与传感偏好</span> | 2. Personal affect profile<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">个人情绪画像</span> | 3. Personal baseline<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">个人基线</span> | 4. Four contextual stories<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">四个情境故事</span> | 5. Post-scene self-report<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">场景后自我报告</span> | 6. Export<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">导出</span> |
+| --- | --- | --- | --- | --- | --- |
+| Interaction data required; camera/microphone proxies optional.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">交互数据为必需；摄像头/麦克风代理可选。</span> | Cultural & linguistic background, personality dimensions, cultural orientations, expression and regulation habits.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">文化与语言背景、人格维度、文化取向、表达与情绪调节习惯。</span> | 10-second resting demo baseline; press-and-hold natural voice sample.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">10 秒静息演示基线；按住录制自然语音样本。</span> | Home & time pressure; work & public evaluation; close relationship & ambiguous intention; outdoor mobility & noise.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">家庭与时间压力；工作与公开评价；亲密关系与模糊意图；户外出行与噪音。</span> | Dimensional affect, discrete emotion & intensity, concealment, expressivity match, causal explanation, preferred AI behaviour.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">维度情绪、离散情绪与强度、掩饰、表达匹配度、原因解释、期望的 AI 行为。</span> | Nested JSON for reproducible processing; long-form CSV for rapid inspection.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">嵌套 JSON 便于可复现处理；长表 CSV 便于快速检视。</span> |
 
 ## Why this prototype exists
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">为什么存在这个原型</div>
@@ -37,19 +47,9 @@ The demo is a data-collection and interaction-design scaffold. It does **not** c
 
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">该演示是一个数据采集与交互设计的脚手架，并不声称仅凭摄像头亮度、画面运动或麦克风振幅就能构成情绪识别。</div>
 
-## Game steps
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">游戏步骤</div>
-
-![EmotionTrack architecture](asset/emotiontrack-architecture.png)
-
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">情绪追踪架构图</div>
-
-| 1. Consent & sensing preferences<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">同意与传感偏好</span> | 2. Personal affect profile<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">个人情绪画像</span> | 3. Personal baseline<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">个人基线</span> | 4. Four contextual stories<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">四个情境故事</span> | 5. Post-scene self-report<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">场景后自我报告</span> | 6. Export<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">导出</span> |
-| --- | --- | --- | --- | --- | --- |
-| Interaction data required; camera/microphone proxies optional.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">交互数据为必需；摄像头/麦克风代理可选。</span> | Cultural & linguistic background, personality dimensions, cultural orientations, expression and regulation habits.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">文化与语言背景、人格维度、文化取向、表达与情绪调节习惯。</span> | 10-second resting demo baseline; press-and-hold natural voice sample.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">10 秒静息演示基线；按住录制自然语音样本。</span> | Home & time pressure; work & public evaluation; close relationship & ambiguous intention; outdoor mobility & noise.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">家庭与时间压力；工作与公开评价；亲密关系与模糊意图；户外出行与噪音。</span> | Dimensional affect, discrete emotion & intensity, concealment, expressivity match, causal explanation, preferred AI behaviour.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">维度情绪、离散情绪与强度、掩饰、表达匹配度、原因解释、期望的 AI 行为。</span> | Nested JSON for reproducible processing; long-form CSV for rapid inspection.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:11px">嵌套 JSON 便于可复现处理；长表 CSV 便于快速检视。</span> |
 
 ## The four scenes
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">四个场景</div>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px"></div>
 
 ### 1. The rushed morning
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">匆忙的早晨</div>
