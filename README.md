@@ -22,7 +22,7 @@ A browser-based, first-person interactive narrative demo for researching **multi
 <div align="center">
 
 ### [🎮 Have a try?](https://wxyhuigenghao-glitch.github.io/EmotionTrack/)
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">在线体验游戏演示 →</div>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">在线体验 →</div>
 
 </div>
 
