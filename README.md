@@ -29,9 +29,9 @@ A browser-based, first-person interactive narrative demo for researching **multi
 ## Why this prototype exists
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">为什么存在这个原型</div>
 
-This project is a gamified demo of the first stage of the research programme and helps explain the research approach:
+This project is a gamified demo for data-collection and helps explain the research approach:
 
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">本项目是研究计划第一阶段的游戏化演示，同时帮助理解研究思路</div>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">本项目是为收集多模态数据的一个情境游戏化演示，同时帮助理解研究思路</div>
 
 > **RQ1:** Which multimodal features can effectively predict an individual’s emotions? Beyond features already validated in prior research, can personality traits, cultural background, and real-time context be incorporated as important variables?
 >
@@ -49,11 +49,6 @@ The central hypothesis is that an observable signal does not carry a stable emot
 - `C_it`: the current place, task, relationship, event, pressure, and AI behaviour;<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">当前的地点、任务、关系、事件、压力与 AI 行为；</span>
 - `U_i`: the participant’s relatively stable personality, cultural orientation, and expression/regulation profile;<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">参与者相对稳定的人格、文化取向与表达/调节特征画像；</span>
 - `Ê_it`: the participant’s affective state, anchored by self-report.<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">参与者的情绪状态，以自我报告为锚点。</span>
-
-The demo is a data-collection and interaction-design scaffold. It does **not** claim that camera brightness, frame movement, or microphone amplitude alone constitute emotion recognition.
-
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:13px">该演示是一个数据采集与交互设计的脚手架，并不声称仅凭摄像头亮度、画面运动或麦克风振幅就能构成情绪识别。</div>
-
 
 ## The four scenes
 <div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px"></div>
