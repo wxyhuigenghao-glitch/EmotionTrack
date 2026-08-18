@@ -27,7 +27,7 @@ A browser-based, first-person interactive narrative demo for researching **multi
 </div>
 
 ## Why this prototype exists
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">为什么存在这个原型</div>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px"></div>
 
 This project is a gamified demo for data-collection and helps explain the research approach:
 
@@ -228,7 +228,7 @@ npm run build
 ```
 
 ## Recommended formal-study extensions
-<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px">建议的正式研究扩展</div>
+<div style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:14px"></div>
 
 1. **Experimental control**<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">实验控制</span>
    - randomise/counterbalance scene order;<br><span style="color:#9ca3af;font-family:'SimSun','宋体',serif;font-size:12px">随机化/平衡场景顺序；</span>
